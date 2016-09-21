@@ -1,7 +1,7 @@
 .header{
 	text-align: center;
 	height:100vh;
-	background-image: url(../img/header_image.jpg); 
+	background-image: url("../img/summer_header.jpg"); 
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -14,7 +14,8 @@
 .header h1{
 	font-size: 75px;
 	margin-top: 22%;
-	color: #bdc3c7;
+	color: #ecf0f1;
+	text-shadow: 2px 2px 0px #000;
 }
 .sub_header{
 	min-height: 100px;
@@ -22,6 +23,7 @@
 .sub_header h3{
 	font-size: 40px;
 	color: #ecf0f1;
+	text-shadow: 1px 1px 0px #000;
 }
 .navbar{
 	margin: 0px;
@@ -53,7 +55,6 @@
 }
 
 .animateblock {
-
   opacity: 0;
   -webkit-transition: all 1.6s linear;
   -moz-transition: all 1.6s linear;
@@ -73,11 +74,9 @@
 }
 .hackbca_logo{
 	height: 10%;
-	width: 10%;
-	margin-right: 3%;
-	margin-bottom: 3%;
-}
-.line{
+	width: 5%;
+	margin-right: 2%;
+	margin-bottom: 1%;
 	display: inline;
 }
 .icon{
@@ -129,4 +128,104 @@
 .link{
 	font-size: 28px;
 	text-align: center;
+}
+.label-primary{
+	background-color: #008cba;
+	display: inline-block;
+	padding: 10px;
+	margin-bottom: 3px;
+}
+.navbar{
+	background-color: #1d1d1d;
+}
+.line{
+	display: inline;
+}
+.job-title{
+	margin-top: 5px;
+}
+@media only screen and (max-device-width: 768px) {
+    /* For mobile phones: */
+    .navbar{
+    	height: 100px;
+    }
+    .navbar-brand{
+    	padding: 28.5px 15px;
+    	font-size: 40px;
+    }
+    .navbar-nav>li>a{
+    	font-size: 30px;
+    	padding-top: 30.5px;
+    	line-height: 36px;
+    }
+    .header h1{
+    	font-size: 140px;
+    	margin-top: 100%;
+    }
+    .sub_header h3{
+    	font-size: 65px;
+	}
+	.arrow{
+    	font-size: 165px;
+	}
+	.title{
+		margin-left: 25px;
+		font-size: 75px;
+	}
+	.descrp{
+		margin-left: 25px;
+		margin-right: 10px;
+		margin-top: 20px;
+	}
+	.descrp p{
+		font-size: 30px;
+	}
+	.skill-title{
+		margin-left: 25px;
+		font-size: 50px;
+	}
+	.list{
+		margin-left: 50px;
+		font-size: 30px;
+	}
+	.sub-experience{
+		margin-left: 25px;
+		font-size: 50px;
+	}
+	.hackbca_logo{
+		width: 15%;
+		margin: 0 auto;
+	}
+	.line{
+		font-size: 50px;
+		margin-left: 10px;
+	}
+	.job-title{
+		display: block;
+		font-size: 50px;
+		margin-top: 50px;
+	}
+	.tech-used{
+		font-size: 30px;
+	}
+	.label-primary{
+		padding: 25px;
+		margin-bottom: 7px;
+		font-size: 30px;
+	}
+	.project{
+		margin-left: 25px;
+	}
+	.project h2{
+		font-size: 50px;
+	}
+	.project p{
+		font-size: 30px;
+	}
+	.project-image{
+		text-align: center;
+	}
+	.contact-icon{
+		font-size: 250px;
+	}
 }

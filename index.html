@@ -5,354 +5,58 @@
 		<meta name="description" content="Home page for Paras Modi. Developer and Student.">
 		<meta http-equiv="content-type" content="text/html;charset=UTF-8">
 		<link rel="canonical" href="http://parasmodi.com/">
-		<script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+		<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 		<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="./css/simple.css">
 		<link rel="stylesheet" href="./css/font-awesome.min.css">
-		<link rel="stylesheet" type="text/css" href="./css/custom.css">
-		<script src="./js/bootstrap.min.js"></script>
-		<script src="./js/jquery.typer.js"></script>
-		<script src="./js/script.js"></script>
 	</head>
 	<body>
-	<div class="navbar navbar-default navbar-fixed-top">
-	    <div class="navbar-header">
-	      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
-	        <span class="icon-bar"></span>
-	        <span class="icon-bar"></span>
-	        <span class="icon-bar"></span>
-	      </button>
-	      <a class="navbar-brand" href="#">Paras Modi</a>
-	    </div>
-	    <div class="navbar-collapse collapse navbar-responsive-collapse">
-	      <ul class="nav navbar-nav">
-	        <li><a href="#about">About Me</a></li>
-	        <li><a href="#experience">Experience</a></li>
-	        <li><a href="#projects">Projects</a></li>
-	        <li><a href="#contact">Contact/Links</a></li>
-	      </ul>
-	      <ul class="nav navbar-nav navbar-right">
-	      </ul>
-	    </div>
-    </div>
-	<div class="header">
 		<div class="container">
-			<h1>Paras Modi</h1>
+			<h1 class="large-header">Paras Modi</h1>
+			<h3>
+			  <span class="typer" id="main" data-words="Software Engineer,Student,Web Developer, Data Scientist" data-colors="black" data-delay="100" data-deleteDelay="1000"></span>
+			  <span class="cursor" data-owner="main"></span>
+			</h3>
+			<div class="jumbotron">
+				Hello, I'm Paras. I am currently a senior at Rutgers University graduating Jan 2019, majoring in Computer Science
+				with a minor in Economics. I love all subjects technology related, but I am very passionate about web development
+				and data science.
+				<br/><br/>
+				In my free time I like to develop full stack applications, explore various datasets, read, or play basketball. You
+				can contact me <a href="mailto:me@parasmodi.com">here</a> or check out my <a href="http://parasmodi.com/resume.pdf">resume</a>.
+			</div>
+			<br/>
 			<div class="row">
-				<div class="col-md-4"></div>
-				<div class="col-md-4 sub_header">
-					<h3 data-typer-targets='Programmer,Student,Web Developer'></h3>
+				<div class="col-sm">
+					<a href="http://parasmodi.com/resume.pdf">
+						<i class="fa fa-file contact-icon"></i>
+						<br>
+						<p class="link">Resume</p>
+					</a>
 				</div>
-				<div class="col-md-4"></div>
-			</div>
-		</div>
-		<div class="container">
-			<div class="row">
-				<div class="col-md-4"></div>
-				<div class="col-md-4">
-					<a href="#about"><i class="fa fa-angle-down arrow"></i></a>
+				<div class="col-sm">
+					<a href="mailto:me@parasmodi.com">
+						<i class="fa fa-envelope contact-icon"></i>
+						<br>
+						<p class="link">me@parasmodi.com</p>
+					</a>
 				</div>
-				<div class="col-md-4"></div>
-			</div>				
-		</div>
-	</div>
-	<div class="container about-me" id="about">
-		<h1 class="title"> About Me</h1>
-		<br>
-		<div class="row">
-			<div class="col-md-3 animateblock">
-				<img class="my-image" src="./img/paras.png">
-			</div>
-			<div class="col-md-9 descrp">
-				<p>I am currently a sophomore at <a href="http://www.rutgers.edu/" target="_blank">Rutgers University</a> in the School of Arts and Sciences Honors Program pursuing degrees in Computer Science and Economics. I graduated from the <a href="http://bcts.bergen.org/index.php/bergen-county-academies?layout=blog" target="_blank">Bergen County Academies</a> in 2015 from the Academy for Telecommunications and Computer Science (ATCS). I am a full stack web developer with experience working in a large corporation to working in a small startup. I love to code and learn more about anything from technology to cosmology. Check out my <a href="#projects">projects</a> or <a href="http://parasmodi.com/resume.pdf" target="_blank">resume</a>. </p>
-				<br>
-			</div>
-		</div>
-	</div>
-	<div class="container experience" id="experience">
-		<h1 class="title"> Experience</h1>
-		<br>
-		<div class="row skills">
-			<div class="col-md-4">
-				<h2 class="skill-title">Programming</h2>
-				<ul class="list">
-					<li>Python </li>
-					<li>Java</li>
-					<li>C</li>
-					<li>Javascript</li>
-					<li>Bash</li>
-				</ul>
-			</div>
-			<div class="col-md-4">
-				<h2 class="skill-title">Web Development</h2>
-				<ul class="list">
-					<li>HTML/CSS</li>
-					<li>React</li>
-					<li>AngularJS</li>
-					<li>MongoDB</li>
-					<li>SQL Databases</li>
-					<li>Flask with Jinja2</li>
-					<li>Node.js</li>
-					<li>Google App Engine</li>
-					<li>jQuery</li>
-				</ul>
-			</div>
-			<div class="col-md-4">
-				<h2 class="skill-title">Other Technologies</h2>
-				<ul class="list">
-					<li>Git/GitHub</li>
-					<li>AWS</li>
-					<li>Heroku</li>
-					<li>Digital Ocean</li>
-					<li>Google Tag Manager</li>
-					<li>Google Analytics/Adsense</li>
-				</ul>
+				<div class="col-sm">
+					<a href="https://github.com/parasm">
+						<i class="fa fa-github-square contact-icon"></i>
+						<br>
+						<p class="link">parasm</p>
+					</a>
+				</div>
+				<div class="col-sm">
+					<a href="https://www.linkedin.com/pub/paras-modi/84/165/512">
+						<i class="fa fa-linkedin-square contact-icon"></i>
+						<br>
+						<p class="link">Paras Modi</p>
+					</a>
+				</div>
 			</div>
 		</div>
-		<hr>
-		<h3 class="sub-experience"> Work Experience</h3>
-		<br>
-		<div class="row">
-			<div class="col-md-12 descrp">
-				<a target="_blank" href="http://www.promediacorp.com/"><img class="hackbca_logo line" src="./img/promediacorp.png"></a>
-				<a target="_blank" href="http://www.promediacorp.com/"><h2 class="line">Promediacorp</h2></a>
-				<h2 class="job-title">Full Stack Developer (May 2016 - Present)</h2>
-				<h4 class="tech-used">Technology Used: 
-					<span class="label label-primary">Python</span>
-					<span class="label label-primary">Flask</span>
-					<span class="label label-primary">Jinja2</span>
-					<span class="label label-primary">HTML/CSS</span>
-					<span class="label label-primary">Javascript</span>
-					<span class="label label-primary">MongoDB</span>
-					<span class="label label-primary">AngularJS</span>
-					<span class="label label-primary">AWS</span>
-					<span class="label label-primary">Git</span>
-					<span class="label label-primary">Google Tag Manager</span>
-					<span class="label label-primary">Google Analytics/Adsense</span>
-				</h4>
-				<br>
-				<p>I am currently working at <a href="http://www.promediacorp.com/" target="_blank">Promediacorp</a> working on various projects that involve SEO optimization, front-end development, and backend development in Python and Flask. Most days I would work on <a href="https://uphail.com/" target="_blank">Up Hail</a>, a site built to to compare the various ridesharing and taxi services available across the US and other countries. I created new features like <a href="https://uphail.com/discover/" target="_blank">Up Hail Discover</a> which has been featured on <a href="http://fieldguide.gizmodo.com/see-how-far-your-budget-will-get-you-in-an-uber-1783413180" target="_blank">Gizmodo</a> and other technology sites. In addition to working on Up Hail I also performed client work, which ranged from SEO optimization to creating full scale webapps according to client specifications such as <a href="http://www.autorentals.com/locations" target="_blank">Autorentals.com</a>.</p>
-			</div>
-		</div>
-		<br>
-		<div class="row">
-			<div class="col-md-12 descrp">
-				<a target="_blank" href="http://www.morganstanley.com/"><img class="hackbca_logo line" src="./img/ms.jpg"></a>
-				<a target="_blank" href="http://www.morganstanley.com/"><h2 class="line">Morgan Stanley</h2></a>
-				<h2 class="job-title">Summer IT Analyst (June 2014 - August 2015)</h2>
-				<h4 class="tech-used">Technology Used: 
-					<span class="label label-primary">Python</span>
-					<span class="label label-primary">Flask</span>
-					<span class="label label-primary">Jinja2</span>
-					<span class="label label-primary">HTML/CSS</span>
-					<span class="label label-primary">Javascript</span>
-					<span class="label label-primary">SQL Databases</span>
-					<span class="label label-primary">Git</span>
-					<span class="label label-primary">Autosys</span>
-					<span class="label label-primary">Perl CGI</span>
-					<span class="label label-primary">Bash</span>
-				</h4>
-				<br>
-				<p>During the end of my junior year of highschool I started working at <a target="_blank"  href="http://www.morganstanley.com/">Morgan Stanley</a> in the Enterprise Infrastructure department. The main focus of my job was to perform database hygiene of the company's automated job control system called Autosys. This entailed creating Python scripts to read through the millions of automated jobs in these databases and ensure they all had the proper metadata. When a job lacked the proper metadata, my scripts would then generate automated emails with reports and send them to the job owners or team leaders. In addition, I helped to maintain the web application that allowed creation of new automated jobs. </p>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-md-12 descrp">
-				<a target="_blank" href="http://www.hackbca.com/"><img class="hackbca_logo line" src="./img/hack_bca_logo.png"></a>
-				<a target="_blank" href="http://www.hackbca.com/"><h2 class="line">hackBCA</h2></a>
-				<h2 class="job-title">hackBCA Web Developer (November 2014 - March 2015)</h2>
-				<h4 class="tech-used">Technology Used: 
-					<span class="label label-primary">Python</span>
-					<span class="label label-primary">Flask</span>
-					<span class="label label-primary">Jinja2</span>
-					<span class="label label-primary">HTML/CSS</span>
-					<span class="label label-primary">Javascript</span>
-					<span class="label label-primary">MongoDB</span>
-					<span class="label label-primary">Git</span>
-					<span class="label label-primary">Heroku</span>
-					<span class="label label-primary">Dropbox API</span>
-				</h4>
-				<br>
-				<p>During the first <a href="http://www.hackbca.com/" target="_blank">hackBCA</a>, I developed a registration system in order for us to keep track of those who were going to attend the hackathon. My registration system collected basic information and waivers for those who were underage. During the day of the event my system was used to monitor attendance, ensure everyone had the proper waivers, and create demographics.  </p>
-			</div>
-		</div>
-		<br>
-	</div>
-
-	<div class="container projects" id="projects">
-		<h1 class="title"> Projects</h1>
-		<div class="row">
-			<div class=" col-md-6 project">
-				<a href="http://www.bcaclassmatch.com/" target="_blank"><h2>ClassMatch</h2></a>
-				<h4 class="tech-used">Technology Used: 
-					<span class="label label-primary">Python</span>
-					<span class="label label-primary">Flask</span>
-					<span class="label label-primary">Jinja2</span>
-					<span class="label label-primary">HTML/CSS</span>
-					<span class="label label-primary">Javascript</span>
-					<span class="label label-primary">MongoDB</span>
-					<span class="label label-primary">Git</span>
-					<span class="label label-primary">Heroku</span>
-				</h4>
-				<p >Class-Match is a web app in which students can find out who is in their classes before school starts based on the preliminary schedules they receive. My friend Jared Zoneraich and I created the website to so that it would be easier for people to find out who else are in their classes without having to go through a hassle.</p>
-				<br>
-			</div>
-			<div class=" col-md-6 project-image">
-				<a href="http://www.bcaclassmatch.com/" target="_blank"><img src="./img/class_match.png"></a>
-			</div>
-		</div>
-		<br>
-		<div class="row">
-			<div class=" col-md-6 project">
-				<a href="http://nhs-tutor.herokuapp.com/" target="_blank"><h2>NHS Tutor</h2></a>
-				<h4 class="tech-used">Technology Used: 
-					<span class="label label-primary">Python</span>
-					<span class="label label-primary">Flask</span>
-					<span class="label label-primary">Jinja2</span>
-					<span class="label label-primary">HTML/CSS</span>
-					<span class="label label-primary">Javascript</span>
-					<span class="label label-primary">MongoDB</span>
-					<span class="label label-primary">Git</span>
-					<span class="label label-primary">Heroku</span>
-				</h4>
-				<p>NHS Tutor is a web app that allows students to find tutoring sessions for areas in which they are struggling. I created the website as a way to make it easier for students to find National Honor Society members that can tutor them in specific subjects. </p>
-				<br>
-			</div>
-			<div class=" col-md-6 project-image">
-				<a href="http://nhs-tutor.herokuapp.com/" target="_blank"><img src="./img/nhs_site.png"></a>
-			</div>
-		</div>
-		<br>
-		<div class="row">
-			<div class=" col-md-6 project">
-				<a href="http://www.hackbca.com/" target="_blank"><h2>hackBCA Registration</h2></a>
-				<h4 class="tech-used">Technology Used: 
-					<span class="label label-primary">Python</span>
-					<span class="label label-primary">Flask</span>
-					<span class="label label-primary">Jinja2</span>
-					<span class="label label-primary">HTML/CSS</span>
-					<span class="label label-primary">Javascript</span>
-					<span class="label label-primary">MongoDB</span>
-					<span class="label label-primary">Git</span>
-					<span class="label label-primary">Heroku</span>
-					<span class="label label-primary">Dropbox API</span>
-				</h4>
-				<p>hackBCA Registration is a web app that asks hackBCA registrants to fill out information about themselves and upload signed waivers. We were later able to use the data we collected to plan the event by accounting for everyones' preferences. </p>
-			</div>
-			<div class=" col-md-6 project-image">
-				<a href="http://www.hackbca.com/" target="_blank"><img src="./img/hack_bca.png"></a>
-			</div>
-		</div>
-		<br>
-		<div class="row">
-			<div class=" col-md-6 project">
-				<a href="https://github.com/parasm/hearts" target="_blank"><h2>Hearts</h2></a>
-				<h4 class="tech-used">Technology Used: 
-					<span class="label label-primary">Python</span>
-					<span class="label label-primary">Flask</span>
-					<span class="label label-primary">Jinja2</span>
-					<span class="label label-primary">HTML/CSS</span>
-					<span class="label label-primary">Javascript</span>
-					<span class="label label-primary">MongoDB</span>
-					<span class="label label-primary">Git</span>
-					<span class="label label-primary">Heroku</span>
-					<span class="label label-primary">Facebook API</span>
-				</h4>
-				<p>Hearts is a web app that was made during the PennApps Spring 2014 to analyze users Facebook conversation and generate statistics based on them. It uses the Facebook Graph API to determine stats such as average words per messages and percent of messages sent.</p>
-				<br>
-			</div>
-			<div class=" col-md-6 project-image">
-				<a href="https://github.com/parasm/hearts" target="_blank"><img src="./img/hearts.png"></a>
-			</div>
-		</div>
-		<br>
-		<div class="row">
-			<div class=" col-md-6 project">
-				<a href="http://choralreef.herokuapp.com/" target="_blank"><h2>Choral Reef</h2></a>
-				<h4 class="tech-used">Technology Used: 
-					<span class="label label-primary">Python</span>
-					<span class="label label-primary">Flask</span>
-					<span class="label label-primary">Jinja2</span>
-					<span class="label label-primary">HTML/CSS</span>
-					<span class="label label-primary">Javascript</span>
-				</h4>
-				<p>Choral Reef is a website that was made for the FBLA E-Business competition. The prompt was to create a website for a fictitious band with the ability to purchase fictitious tickets. Choral Reef won 2<sup>nd</sup> place at the New Jersey FBLA State Leadership Conference.</p>
-				<br>
-			</div>
-			<div class=" col-md-6 project-image">
-				<a href="http://choralreef.herokuapp.com/" target="_blank"><img src="./img/choral_reef.png"></a>
-			</div>
-		</div>
-		<br>
-		<div class="row">
-			<div class=" col-md-6 project">
-				<a href="https://github.com/jzone3/Frames" target="_blank"><h2>Frames</h2></a>
-				<h4 class="tech-used">Technology Used: 
-					<span class="label label-primary">Python</span>
-					<span class="label label-primary">Google App Engine</span>
-					<span class="label label-primary">Jinja2</span>
-					<span class="label label-primary">HTML/CSS</span>
-					<span class="label label-primary">Javascript</span>
-					<span class="label label-primary">Android SDK</span>
-				</h4>
-				<p>Frames is a picture sharing social network app for Android that my team made at hackRU. The idea behind Frames was to be able to anonymously upload pictures with the user's current location and then create trending places. When the app is opened it presents the user with a feed of pictures from their current location.</p>
-				<br>
-			</div>
-			<div class=" col-md-6 project-image">
-				<a href="https://github.com/jzone3/Frames" target="_blank"><img src="./img/frames.png"></a>
-			</div>
-		</div>
-		<br>
-	</div>
-	<div class="container contact" id="contact">
-		<h1 class="title">Contact Me</h1>
-		<br>
-		<div class="row">
-			<div class="col-md-3 center">
-			<a href="http://parasmodi.com/resume.pdf">
-				<i class="fa fa-file contact-icon"></i>
-				<br>
-				<p class="link">Resume</p>
-			</a>
-			</div>
-			<div class="col-md-3 center">
-			<a href="mailto:me@parasmodi.com">
-				<i class="fa fa-envelope contact-icon"></i>
-				<br>
-				<p class="link">me@parasmodi.com</p>
-			</a>
-			</div>
-			<div class="col-md-3 center">
-			<a href="https://github.com/parasm">
-				<i class="fa fa-github-square contact-icon"></i>
-				<br>
-				<p class="link">parasm</p>
-			</a>
-			</div>
-			<div class="col-md-3 center">
-			<a href="https://www.linkedin.com/pub/paras-modi/84/165/512">
-				<i class="fa fa-linkedin-square contact-icon"></i>
-				<br>
-				<p class="link">Paras Modi</p>
-			</a>
-			</div>
-		</div>
-	</div>
-	<script type="text/javascript">
-		$(function() {
-		  $('a[href*=#]:not([href=#])').click(function() {
-		    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-		      var target = $(this.hash);
-		      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-		      if (target.length) {
-		        $('html,body').animate({
-		          scrollTop: target.offset().top
-		        }, 1000);
-		        return false;
-		      }
-		    }
-		  });
-		});
-		</script>
 		<script>
 		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -364,4 +68,5 @@
 
 		</script>
 	</body>
+	<script src="./js/typer.js"></script>
 </html>

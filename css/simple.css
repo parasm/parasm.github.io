@@ -1,0 +1,21 @@
+.container{
+  text-align: center;
+  margin: 0 auto;
+}
+.large-header{
+  font-size: 70px;
+  margin-top: 10%;
+}
+.jumbotron{
+  padding: 10px;
+  text-align: left;
+  max-width: 75%;
+  margin: 0 auto;
+}
+.contact-icon{
+  font-size: 140px !important;
+}
+.row{
+  max-width: 75%;
+  margin: 0 auto;
+}

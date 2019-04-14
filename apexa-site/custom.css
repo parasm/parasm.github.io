@@ -1,0 +1,49 @@
+html {
+  scroll-behavior: smooth;
+}
+body{
+  background-image:    url('background.jpg');
+  background-size: contain;
+  background-position: center center;
+}
+.container{
+	background-color: #f7f7f4;
+}
+.header{
+	text-align: center;
+}
+.header h3{
+	font-size: 25px;
+}
+.header-pic{
+	width: 60%;
+	height: auto;
+}
+ul {
+	display: flex;
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+  overflow: hidden;
+  text-align: center;
+  flex-direction: row;
+  justify-content: center;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #34495e;
+}
+.section{
+	height: 500px;
+}
